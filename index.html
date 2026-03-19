@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Descoberta do Número Secreto</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    <div class="happy-cat" aria-label="Carinha de gatinho feliz">😺</div>
+    <div class="container">
+        <h1>Descubra o Número Secreto</h1>
+
+        <section class="options">
+            <p>Escolha o intervalo:</p>
+            <label><input type="radio" name="maxNumber" value="10" checked /> 0 - 10</label>
+            <label><input type="radio" name="maxNumber" value="20" /> 0 - 20</label>
+            <label><input type="radio" name="maxNumber" value="30" /> 0 - 30</label>
+        </section>
+
+        <section class="options">
+            <p>Escolha as tentativas:</p>
+            <label><input type="radio" name="maxChances" value="5" checked /> 5</label>
+            <label><input type="radio" name="maxChances" value="10" /> 10</label>
+        </section>
+
+        <section class="play">
+            <label for="guess">Seu palpite:</label>
+            <input type="number" id="guess" min="0" value="0" />
+            <button id="play">Conferir</button>
+            <button id="reset">Reiniciar</button>
+        </section>
+
+        <div class="status">
+            <p>Chances restantes: <strong id="chancesLabel">0</strong></p>
+            <p>Pontuação atual: <strong id="scoreLabel">0</strong></p>
+        </div>
+
+        <div id="result" class="result">Aperte Conferir para iniciar o jogo.</div>
+        <div id="secret" class="secret"></div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

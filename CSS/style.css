@@ -1,0 +1,126 @@
+.container {
+    width: 100%;
+    max-width: 420px;
+    margin: 30px auto;
+    background: #fff9d6;
+    border: 1px solid #f2d86c;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2a2400;
+}
+.status span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #c8c8c8;
+}
+.section label {
+    display: inline-block;
+    margin-right: 14px;
+    cursor: pointer;
+    color: #d1d1d1;
+}
+.result {
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #333;
+    background: #faf4d7;
+    min-height: 50px;
+    line-height: 1.4;
+    color: #322900;
+}
+
+.happy-face {
+    position: fixed;
+    top: 12px;
+    right: 14px;
+    font-size: 2rem;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+@keyframes floatSmile {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-6px) rotate(10deg); }
+}
+
+h1 {
+    text-align: center;
+    color: #695500;
+    text-shadow: none;
+}
+
+.status, .section {
+    margin: 10px 0;
+    font-size: 0.95rem;
+}
+
+.status span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #c8c8c8;
+}
+
+.section label {
+    display: inline-block;
+    margin-right: 14px;
+    cursor: pointer;
+    color: #d1d1d1;
+}
+
+input[type="number"] {
+    width: 72px;
+    padding: 6px;
+    margin-right: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #1b1b1f;
+    color: #f7f7f7;
+}
+
+button {
+    border: 1px solid #444;
+    color: #f7f7f7;
+    background: #2b2b32;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 4px;
+    box-shadow: none;
+}
+
+button:hover {
+    background: #3d3d46;
+}
+
+.result {
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #333;
+    background: #191b1f;
+    min-height: 50px;
+    line-height: 1.4;
+    color: #e5e5e5;
+}
+
+.happy-cat {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    font-size: 2.2rem;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.secret {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #9dd6ff;
+}
+
